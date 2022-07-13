@@ -2,7 +2,7 @@ var noseX= 0;
 var noseY= 0;
 
 function preload() {
-     img= loadImage("https://i.postimg.cc/CMBKKsVn/clown-nose-removebg-preview.png")
+     img= loadImage("https://i.postimg.cc/DyWL1NPK/mustache-removebg-preview-1.png")
 }
 
 function setup() {
@@ -33,7 +33,7 @@ function Got_result(results) {
         console.log(results);
         console.log("noseX="+results[0].pose.nose.x);
         console.log("noseY="+results[0].pose.nose.y);
-        noseX= results[0].pose.nose.x-25;
-        noseY= results[0].pose.nose.y-25;
+        noseX= results[0].pose.nose.x-15;
+        noseY= results[0].pose.nose.y-15;
     }
 }
